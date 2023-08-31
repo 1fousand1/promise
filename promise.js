@@ -86,7 +86,7 @@ let makeRequestAtTheOneMoment =  async () => {
 
     let promises = [fetch("microsoft"),fetch("google"),fetch("it-kamasutra")]
     Promise.all(promise)
-    
+
     let data = await Promise.all(promises)
     console.log(data)
 }
